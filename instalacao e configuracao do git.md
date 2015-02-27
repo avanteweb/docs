@@ -31,12 +31,12 @@ export PS1='\[$color\]\u@\h \[$path_color\]\w$(__git_ps1 " \[$git_color\][%s]") 
 
 //Introduzir analogia para explicar melhor o que são remotes//
 
-* Para o príximo passo, é necessário acessar sua conta do GitHub.com e criar um fork (cópia) do remote que você está trabalhando;
+* Para o próximo passo, é necessário acessar sua conta do GitHub.com e criar um fork (cópia) do remote que você está trabalhando;
 
 * Hora de criar Remotes. Para criar remotes, basta executar o comando 'git remote add (nome do remote) + (link ssh do remote)'.
 Existem dois tipos de remotes o remote principal (Upstream) e o remote que é uma cópia do principal(Origin). Necessariamente, deve-se adicionar estes dois respectivos remotes basta executar os comandos 'git remote add + (nome do remote[use o nome origin para criar o remote do seu fork]) + (o link ssh do seu remote fork)' por exemplo git@github.com:seunomenogithub/docs.git e 'git remote add + (nome do remote[use o nome upstream para criar o remote principal]) + (link ssh do seu remote principal)';
 
-*Feito isso digite o comando 'git remote -v' para verificar se seus remotes foram criados corretamente.
+* Feito isso digite o comando  'git remote -v'  para verificar se seus remotes foram criados corretamente.
 
 * Referências deste documento :
 
