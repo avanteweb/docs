@@ -102,6 +102,10 @@ Depois de concluída a instalação, adicione o phpMyAdmin para a configuração
 
 sudo nano /etc/apache2/apache2.conf
 
+cole o seguinte comando:
+
+Include /etc/phpmyadmin/apache.conf
+
 Depois disso reinicie o seu servidor com o comando:
 
 sudo service apache2 restart
